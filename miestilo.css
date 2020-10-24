@@ -1,0 +1,35 @@
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #005883;
+    
+}
+.menu{
+    background: #F0B429;
+    width: 1340px;
+    display: flex;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+   
+}
+.tabla{
+    width: auto;
+    font-size: 20px;
+    margin:15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.conceptoscon{
+    text-align: center;
+    font-size: 30;
+    background: cyan;
+
+}
+
+iframe{
+    width: 80%;
+    height: 90vh;
+}
