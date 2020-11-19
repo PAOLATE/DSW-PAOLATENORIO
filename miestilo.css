@@ -6,7 +6,7 @@
     
 }
 .menu{
-    background: #b3b3b3;
+    background: #50b748;
     width: 1340px;
     display: flex;
     height: 100px;
@@ -25,7 +25,7 @@
 .conceptoscon{
     text-align: center;
     font-size: 30;
-    background: cyan;
+    background: rgb(231, 238, 238);
 
 }
 
