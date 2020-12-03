@@ -5,14 +5,30 @@
     background: #005883;
     
 }
-.menu{
-    background: #f0b429;
-    width: 1350px;
+
+.menuCSS3 ul {
     display: flex;
-    height: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
-   
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #F9B53C;
+    text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #CC673B;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
 }
 .tabla{
     width: auto;
