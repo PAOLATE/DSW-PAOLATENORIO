@@ -217,3 +217,17 @@ footer{
         height: 400px;
     }
    
+   
+   
+}
+@media screen and (max-width: 1024px) {
+    .click:after {
+        content:"Tablet";
+    }
+}
+@media screen and (max-width: 480px) {
+    .click:after {
+        content:"Movil";
+    }
+}
+  
