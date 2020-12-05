@@ -220,14 +220,24 @@ footer{
    
    
 }
-@media screen and (max-width: 1024px) {
-    .click:after {
-        content:"Tablet";
-    }
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+	float:none;
+	width:100%;
 }
-@media screen and (max-width: 480px) {
-    .click:after {
-        content:"Movil";
-    }
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+	width:33%;
 }
   
