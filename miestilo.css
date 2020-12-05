@@ -216,28 +216,16 @@ footer{
         width: 400px;
         height: 400px;
     }
-   
-   
-   
-}
-/* Diseño para celulares */
-#columna1, #columna2, #columna3 {
-	float:none;
-	width:100%;
-}
 
-/* Diseño para tabletas */ 
-@media screen and (min-width: 800px) {
-	#columna1, #columna2 {
-		float:left;
-		width:50%;
-	}
 }
+@media screen and (max-width:800px){
+    body{
+        background: #33cccc;
+    }
 
-/* Diseño para PC */ 
-@media screen and (min-width: 1025px) {
-	#columna1, #columna2, #columna3 {
-	float:left;
-	width:33%;
 }
-  
+@media screen and (max-width:500px){
+    body{
+        background: #52f93c;
+    }
+}
