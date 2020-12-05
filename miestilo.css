@@ -4,6 +4,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #005883;
     
+    
 }
 
 .menuCSS3 ul {
@@ -215,70 +216,4 @@ footer{
         width: 400px;
         height: 400px;
     }
-    @media (max-width: 720px){
-        .t0m{
-            display: none;
-
-        }
-        .t20m{
-            width: 20%;
-        }
-        .t40m{
-            width: 40%;
-        }
-        .t60m{
-            width: 60%;
-        }
-        .t80m{
-            width: 80%;
-        }
-        .t100m{
-            width: 100%;
-
-        }
-    }
-    @media (min-width:721px) and (max-width:1024px){
-        .t0t{
-            display: none;
-
-        }
-        .t20t{
-            width: 20%;
-        }
-        .t40t{
-            width: 40%;
-        }
-        .t60t{
-            width: 60%;
-        }
-        .t80t{
-            width: 80%;
-        }
-        .t100t{
-            width: 100%;
-
-        }
-    }
-    @media (min-width: width 1025px){
-        .t0p{
-            display: none;
-
-        }
-        .t20p{
-            width: 20%;
-        }
-        .t40p{
-            width: 40%;
-        }
-        .t60p{
-            width: 60%;
-        }
-        .t80p{
-            width: 80%;
-        }
-        .t100p{
-            width: 100%;
-
-        }
-    }  
-    
+   
